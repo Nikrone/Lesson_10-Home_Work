@@ -17,20 +17,19 @@ class RoundButton: UIButton {
             }
         }
     }
-    
-}
-
-enum Operation:String {
-    case plus = "+"
-    case minus = "-"
-    case multiply = "*"
-    case divide = "/"
-    case null = "null"
 }
 
 class ViewController: UIViewController {
     
     @IBOutlet weak var resultLabel: UILabel!
+    
+    enum Operation:String {
+        case plus = "+"
+        case minus = "-"
+        case multiply = "*"
+        case divide = "/"
+        case null = "null"
+    }
     
     var runningNumber = ""
     var leftValue = ""
@@ -99,7 +98,6 @@ class ViewController: UIViewController {
     }
     
     
-    
     func operation(operation: Operation) {
         if currentOperation != .null {
             if runningNumber != "" {
@@ -124,7 +122,7 @@ class ViewController: UIViewController {
             }
             currentOperation = operation
             
-        }else{
+        } else {
             leftValue = runningNumber
             runningNumber = ""
             currentOperation = operation

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,23 +12,18 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lesson_10_Home_Work" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="XTk-7J-aug">
-                                <rect key="frame" x="32" y="397" width="350" height="450"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="XTk-7J-aug">
+                                <rect key="frame" x="16" y="336" width="358" height="474"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="pom-wh-6Gv">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="80"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="pom-wh-6Gv">
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="82"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MvS-Zi-CtI" customClass="RoundButton" customModule="Lesson_10_Home_Work" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="82" height="82"/>
                                                 <color key="backgroundColor" red="0.55686277149999996" green="0.55686277149999996" blue="0.56078433989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="MvS-Zi-CtI" secondAttribute="height" multiplier="1:1" id="P36-Xw-zlg"/>
-                                                    <constraint firstAttribute="width" constant="80" id="eO6-1Y-Jhy"/>
-                                                    <constraint firstAttribute="height" constant="80" id="mD1-F3-BZS"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="AC"/>
@@ -40,12 +35,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r98-hs-evd" customClass="RoundButton" customModule="Lesson_10_Home_Work" customModuleProvider="target">
-                                                <rect key="frame" x="90" y="0.0" width="80" height="80"/>
+                                                <rect key="frame" x="92" y="0.0" width="82" height="82"/>
                                                 <color key="backgroundColor" red="0.55686277149999996" green="0.55686277149999996" blue="0.56078433989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="80" id="5bJ-zB-Hko"/>
-                                                    <constraint firstAttribute="height" constant="80" id="8Xt-vi-SmQ"/>
-                                                </constraints>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" image="plus.slash.minus" catalog="system">
                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
@@ -58,12 +49,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6b-MM-vZt" customClass="RoundButton" customModule="Lesson_10_Home_Work" customModuleProvider="target">
-                                                <rect key="frame" x="180" y="0.0" width="80" height="80"/>
+                                                <rect key="frame" x="184" y="0.0" width="82" height="82"/>
                                                 <color key="backgroundColor" red="0.55686277149999996" green="0.55686277149999996" blue="0.56078433989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="80" id="LNX-nv-jpU"/>
-                                                    <constraint firstAttribute="width" constant="80" id="XyW-V8-tJF"/>
-                                                </constraints>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" image="percent" catalog="system">
                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
@@ -76,11 +63,10 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="niR-oK-6Lx" customClass="RoundButton" customModule="Lesson_10_Home_Work" customModuleProvider="target">
-                                                <rect key="frame" x="270" y="0.0" width="80" height="80"/>
+                                                <rect key="frame" x="276" y="0.0" width="82" height="82"/>
                                                 <color key="backgroundColor" red="0.94117647410000005" green="0.63921570780000003" blue="0.2352941036" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="80" id="42V-0k-yMY"/>
-                                                    <constraint firstAttribute="height" constant="80" id="7DG-PT-ML2"/>
+                                                    <constraint firstAttribute="width" secondItem="niR-oK-6Lx" secondAttribute="height" multiplier="1:1" id="dWg-8J-jxn"/>
                                                 </constraints>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" image="divide" catalog="system">
@@ -94,21 +80,13 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="4NF-UR-OjV"/>
-                                            <constraint firstAttribute="width" constant="350" id="IQF-bf-LzV"/>
-                                        </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vgn-tI-kVk">
-                                        <rect key="frame" x="0.0" y="92.5" width="350" height="80"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vgn-tI-kVk">
+                                        <rect key="frame" x="0.0" y="98" width="358" height="82"/>
                                         <subviews>
                                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SHz-ZY-PiW" customClass="RoundButton" customModule="Lesson_10_Home_Work" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="82" height="82"/>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="80" id="M0B-RI-BZo"/>
-                                                    <constraint firstAttribute="width" constant="80" id="PRB-Nd-ttx"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="7"/>
@@ -120,12 +98,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RIL-tT-y84" customClass="RoundButton" customModule="Lesson_10_Home_Work" customModuleProvider="target">
-                                                <rect key="frame" x="90" y="0.0" width="80" height="80"/>
+                                                <rect key="frame" x="92" y="0.0" width="82" height="82"/>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="80" id="l4S-ru-aXT"/>
-                                                    <constraint firstAttribute="height" constant="80" id="w1v-ua-tB5"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="8"/>
@@ -137,12 +111,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ErT-P0-CUz" customClass="RoundButton" customModule="Lesson_10_Home_Work" customModuleProvider="target">
-                                                <rect key="frame" x="180" y="0.0" width="80" height="80"/>
+                                                <rect key="frame" x="184" y="0.0" width="82" height="82"/>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="80" id="Duo-Lc-WoB"/>
-                                                    <constraint firstAttribute="width" constant="80" id="uRG-Y1-wpP"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="9"/>
@@ -154,12 +124,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="szK-FN-jwb" customClass="RoundButton" customModule="Lesson_10_Home_Work" customModuleProvider="target">
-                                                <rect key="frame" x="270" y="0.0" width="80" height="80"/>
+                                                <rect key="frame" x="276" y="0.0" width="82" height="82"/>
                                                 <color key="backgroundColor" red="0.94117647410000005" green="0.63921570780000003" blue="0.2352941036" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="80" id="jFu-kd-Yci"/>
-                                                    <constraint firstAttribute="height" constant="80" id="qDA-vl-VXq"/>
-                                                </constraints>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" image="multiply" catalog="system">
                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
@@ -172,21 +138,13 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="Cug-Kd-hyw"/>
-                                            <constraint firstAttribute="width" constant="350" id="tRP-34-VM7"/>
-                                        </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="znl-3j-eaZ">
-                                        <rect key="frame" x="0.0" y="185" width="350" height="80"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="znl-3j-eaZ">
+                                        <rect key="frame" x="0.0" y="196" width="358" height="82"/>
                                         <subviews>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UvZ-Vl-oWx" customClass="RoundButton" customModule="Lesson_10_Home_Work" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="82" height="82"/>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="80" id="4Z6-nq-AAx"/>
-                                                    <constraint firstAttribute="width" constant="80" id="nHP-oD-PEj"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="4"/>
@@ -198,12 +156,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0xc-IV-7xO" customClass="RoundButton" customModule="Lesson_10_Home_Work" customModuleProvider="target">
-                                                <rect key="frame" x="90" y="0.0" width="80" height="80"/>
+                                                <rect key="frame" x="92" y="0.0" width="82" height="82"/>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="80" id="2ND-Nu-I2r"/>
-                                                    <constraint firstAttribute="width" constant="80" id="jb1-2g-xs9"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="5"/>
@@ -215,12 +169,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IxZ-0q-XyR" customClass="RoundButton" customModule="Lesson_10_Home_Work" customModuleProvider="target">
-                                                <rect key="frame" x="180" y="0.0" width="80" height="80"/>
+                                                <rect key="frame" x="184" y="0.0" width="82" height="82"/>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="80" id="1A9-Iw-6Ix"/>
-                                                    <constraint firstAttribute="height" constant="80" id="e8M-DD-p7d"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="6"/>
@@ -232,12 +182,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2E-Mf-UZ2" customClass="RoundButton" customModule="Lesson_10_Home_Work" customModuleProvider="target">
-                                                <rect key="frame" x="270" y="0.0" width="80" height="80"/>
+                                                <rect key="frame" x="276" y="0.0" width="82" height="82"/>
                                                 <color key="backgroundColor" red="0.94117647410000005" green="0.63921570780000003" blue="0.2352941036" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="80" id="Par-HZ-sg0"/>
-                                                    <constraint firstAttribute="height" constant="80" id="hDp-g0-leV"/>
-                                                </constraints>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" image="minus" catalog="system">
                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
@@ -250,21 +196,13 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="41f-ty-dOr"/>
-                                            <constraint firstAttribute="width" constant="350" id="5db-0n-v2m"/>
-                                        </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6YX-6v-1fJ">
-                                        <rect key="frame" x="0.0" y="277.5" width="350" height="80"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6YX-6v-1fJ">
+                                        <rect key="frame" x="0.0" y="294" width="358" height="82"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFf-7t-qux" customClass="RoundButton" customModule="Lesson_10_Home_Work" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="82" height="82"/>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="80" id="eVT-D7-ZYn"/>
-                                                    <constraint firstAttribute="width" constant="80" id="nCC-VT-fcN"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="1"/>
@@ -276,12 +214,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWv-9R-Js9" customClass="RoundButton" customModule="Lesson_10_Home_Work" customModuleProvider="target">
-                                                <rect key="frame" x="90" y="0.0" width="80" height="80"/>
+                                                <rect key="frame" x="92" y="0.0" width="82" height="82"/>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="80" id="HzJ-t7-ZRk"/>
-                                                    <constraint firstAttribute="width" constant="80" id="oI9-7c-SXY"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="2"/>
@@ -293,12 +227,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zfk-fO-01Q" customClass="RoundButton" customModule="Lesson_10_Home_Work" customModuleProvider="target">
-                                                <rect key="frame" x="180" y="0.0" width="80" height="80"/>
+                                                <rect key="frame" x="184" y="0.0" width="82" height="82"/>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="80" id="Nyr-xM-1fN"/>
-                                                    <constraint firstAttribute="height" constant="80" id="PMs-NK-QLe"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="3"/>
@@ -310,12 +240,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KqZ-FL-05g" customClass="RoundButton" customModule="Lesson_10_Home_Work" customModuleProvider="target">
-                                                <rect key="frame" x="270" y="0.0" width="80" height="80"/>
+                                                <rect key="frame" x="276" y="0.0" width="82" height="82"/>
                                                 <color key="backgroundColor" red="0.94117647410000005" green="0.63921570780000003" blue="0.2352941036" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="80" id="GWg-xi-DZu"/>
-                                                    <constraint firstAttribute="width" constant="80" id="nTd-Kb-RyU"/>
-                                                </constraints>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" image="plus" catalog="system">
                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
@@ -328,21 +254,13 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="PUp-lP-ejF"/>
-                                            <constraint firstAttribute="width" constant="350" id="tmo-9m-Abs"/>
-                                        </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="te1-gp-FRl">
-                                        <rect key="frame" x="0.0" y="370" width="350" height="80"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="te1-gp-FRl">
+                                        <rect key="frame" x="0.0" y="392" width="358" height="82"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCu-zC-7Sq" customClass="RoundButton" customModule="Lesson_10_Home_Work" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="160" height="80"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="112.66666666666667" height="82"/>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="B06-YA-7qs"/>
-                                                    <constraint firstAttribute="height" constant="80" id="pxQ-AR-6Gd"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="0"/>
@@ -354,12 +272,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2DE-Tb-6ax" customClass="RoundButton" customModule="Lesson_10_Home_Work" customModuleProvider="target">
-                                                <rect key="frame" x="175" y="0.0" width="80" height="80"/>
+                                                <rect key="frame" x="122.66666666666666" y="0.0" width="112.66666666666666" height="82"/>
                                                 <color key="backgroundColor" red="0.19607841970000001" green="0.20000001789999999" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="80" id="9F7-Ez-nZL"/>
-                                                    <constraint firstAttribute="width" constant="80" id="Pi4-oV-tvG"/>
-                                                </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title=","/>
@@ -371,12 +285,8 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1rh-NI-l9G" customClass="RoundButton" customModule="Lesson_10_Home_Work" customModuleProvider="target">
-                                                <rect key="frame" x="270" y="0.0" width="80" height="80"/>
+                                                <rect key="frame" x="245.33333333333329" y="0.0" width="112.66666666666666" height="82"/>
                                                 <color key="backgroundColor" red="0.94117647410000005" green="0.63921570780000003" blue="0.2352941036" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="80" id="5sj-Xj-pza"/>
-                                                    <constraint firstAttribute="width" constant="80" id="Jgs-fc-Prc"/>
-                                                </constraints>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" image="equal" catalog="system">
                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
@@ -389,19 +299,11 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="OD3-Qy-yox"/>
-                                            <constraint firstAttribute="width" constant="350" id="u9h-Ui-QZq"/>
-                                        </constraints>
                                     </stackView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="450" id="YaT-Pa-sZg"/>
-                                    <constraint firstAttribute="width" constant="350" id="rJ4-uI-q8q"/>
-                                </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4GF-om-hsV">
-                                <rect key="frame" x="25" y="299" width="354" height="82"/>
+                                <rect key="frame" x="16" y="254" width="344" height="82"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="60"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -410,11 +312,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="4GF-om-hsV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="1pc-Le-b0i"/>
+                            <constraint firstItem="XTk-7J-aug" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="G7V-9O-bTJ"/>
+                            <constraint firstItem="XTk-7J-aug" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="MBo-lb-0cz"/>
                             <constraint firstItem="XTk-7J-aug" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PQT-kI-tDq"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4GF-om-hsV" secondAttribute="trailing" constant="35" id="PRF-if-rVL"/>
-                            <constraint firstItem="XTk-7J-aug" firstAttribute="top" secondItem="4GF-om-hsV" secondAttribute="bottom" constant="16" id="V5R-nJ-S3o"/>
-                            <constraint firstItem="4GF-om-hsV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="bHj-dO-Q9j"/>
-                            <constraint firstItem="XTk-7J-aug" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="353" id="vUq-pu-Zdr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XTk-7J-aug" secondAttribute="trailing" constant="16" id="bZr-gm-fJK"/>
+                            <constraint firstItem="XTk-7J-aug" firstAttribute="top" secondItem="4GF-om-hsV" secondAttribute="bottom" id="ck0-pJ-yiC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4GF-om-hsV" secondAttribute="trailing" constant="30" id="u0X-Yc-caG"/>
                         </constraints>
                     </view>
                     <connections>
@@ -423,7 +327,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="34.782608695652179" y="78.348214285714278"/>
+            <point key="canvasLocation" x="33.846153846153847" y="78.199052132701425"/>
         </scene>
     </scenes>
     <designables>
@@ -431,7 +335,7 @@
             <size key="intrinsicContentSize" width="30" height="53"/>
         </designable>
         <designable name="1rh-NI-l9G">
-            <size key="intrinsicContentSize" width="27.5" height="23.5"/>
+            <size key="intrinsicContentSize" width="28" height="23.666666666666668"/>
         </designable>
         <designable name="2DE-Tb-6ax">
             <size key="intrinsicContentSize" width="30" height="53"/>
@@ -446,7 +350,7 @@
             <size key="intrinsicContentSize" width="30" height="53"/>
         </designable>
         <designable name="KqZ-FL-05g">
-            <size key="intrinsicContentSize" width="31.5" height="30"/>
+            <size key="intrinsicContentSize" width="31.666666666666668" height="29.666666666666668"/>
         </designable>
         <designable name="MvS-Zi-CtI">
             <size key="intrinsicContentSize" width="43" height="53"/>
@@ -455,7 +359,7 @@
             <size key="intrinsicContentSize" width="30" height="53"/>
         </designable>
         <designable name="S2E-Mf-UZ2">
-            <size key="intrinsicContentSize" width="31.5" height="22"/>
+            <size key="intrinsicContentSize" width="31.666666666666668" height="22"/>
         </designable>
         <designable name="SHz-ZY-PiW">
             <size key="intrinsicContentSize" width="30" height="53"/>
@@ -473,16 +377,16 @@
             <size key="intrinsicContentSize" width="30" height="53"/>
         </designable>
         <designable name="i6b-MM-vZt">
-            <size key="intrinsicContentSize" width="34" height="32.5"/>
+            <size key="intrinsicContentSize" width="34.333333333333336" height="32.333333333333336"/>
         </designable>
         <designable name="niR-oK-6Lx">
-            <size key="intrinsicContentSize" width="31.5" height="28.5"/>
+            <size key="intrinsicContentSize" width="31.666666666666668" height="28.333333333333332"/>
         </designable>
         <designable name="r98-hs-evd">
-            <size key="intrinsicContentSize" width="35" height="32"/>
+            <size key="intrinsicContentSize" width="35.333333333333336" height="32"/>
         </designable>
         <designable name="szK-FN-jwb">
-            <size key="intrinsicContentSize" width="27" height="27.5"/>
+            <size key="intrinsicContentSize" width="27.333333333333332" height="27.666666666666668"/>
         </designable>
     </designables>
     <resources>
